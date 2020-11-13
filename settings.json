@@ -1,0 +1,148 @@
+{
+    "extensions.autoUpdate": false,
+    "update.showReleaseNotes": false,
+    "update.mode": "default",
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.suggestSelection": "first",
+    "editor.cursorWidth": 12,
+    "editor.cursorStyle": "block",
+    "editor.fontFamily": "Dyslexie",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 33,
+    "terminal.integrated.fontWeight": "200",
+    "terminal.integrated.fontFamily": "Monaco",
+    "vim.cursorStylePerMode.normal": "block-outline",
+    "vim.statusBarColors.normal": "red",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBorder": "#C9AF3B",
+        "editor.lineHighlightBackground": "#10161C",
+        "editorCursor.foreground": "#F5D547",
+        "editor.selectionBackground": "#444",
+        "editor.background": "#19222B",
+        "editor.selectionHighlightBorder": "#cdc",
+    },
+    "vim.statusBarColors.insert": "#ffffaa",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "entity.name.class",
+                "settings": {
+                    "foreground": "#B39B34",
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": "entity.name.function",
+                "settings": {
+                    "fontStyle": "bold",
+                }
+            },
+            {
+                "name": "Function call",
+                "scope": "meta.function-call.js, meta.function-call.object, meta.function-call.static",
+                "settings": {
+                    "foreground": "#e26f60"
+                }
+            },
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#218380",
+                }
+            },
+            {
+                "scope": "punctuation.definition.comment",
+                "settings": {
+                    "foreground": "#218380",
+                }
+            },
+            {
+                "name": "Decorators",
+                "scope": [
+                    "tag.decorator.js entity.name.tag.js",
+                    "tag.decorator.js punctuation.definition.tag.js",
+                    "entity.name.decorator"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#FF9933"
+                }
+            },
+            {
+                "name": "Prop",
+                "scope": [
+                    "support.type.property-name"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "Function",
+                "scope": [
+                    "entity.name.function"
+                ],
+                "settings": {
+                    "fontStyle": "bold italic"
+                }
+            },
+            {
+                "name": "Tag",
+                "scope": [
+                    "entity.name.tag"
+                ],
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.cursorBlinking": true,
+    "window.zoomLevel": 0,
+    "problems.autoReveal": false,
+    "files.associations": {
+        "*.rmd": "markdown"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "javascript.preferences.importModuleSpecifier": "relative",
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/bower_components": true,
+        "**/jspm_packages": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "vsintellicode.typescript.completionsEnabled": true,
+    "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+    "breadcrumbs.enabled": false,
+    "r.linting.lineLength": true,
+    "r.linting.enable": true,
+    "r.linting.pascalCase": false,
+    "r.editor.formatOnType": false,
+    "r.linting.upperCase": false,
+    "autoimport.filesToScan": "./src/**.{ts,tsx}",
+    "spellright.language": [
+        "EN"
+    ],
+    "spellright.recheckOnSave": true,
+    "diffEditor.renderSideBySide": false,
+    "workbench.iconTheme": "vscode-icons",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "timeline.excludeSources": [
+        "git-history"
+    ],
+    "prettier.singleQuote": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+}
